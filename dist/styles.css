@@ -11,6 +11,15 @@
 /* Keep compact details readable on smaller displays. */
 @media(max-width:520px){.fact div{display:block}.fact strong{font-size:15px}.fact div>span{font-size:12px;text-align:left;margin-top:3px}.eyebrow{font-size:12px}.header-phone{font-size:13px}.copyright{font-size:12px}.hero-more{font-size:14px}.button{font-size:14px}}
 
+.contact-name{font-size:16px;font-weight:600;line-height:1.6}
+.privacy-link{display:inline-block;font-size:13px;line-height:1.6;text-decoration:underline;text-underline-offset:4px}
+.privacy-link:hover{text-decoration-thickness:2px}
+.contact-details>.privacy-link{margin-top:22px;max-width:360px}
+.footer-legal{margin-top:28px;padding-top:24px;border-top:1px solid #ffffff20;display:flex;justify-content:space-between;align-items:flex-start;gap:24px}
+.company-requisites{display:flex;flex-wrap:wrap;gap:8px 24px;font-size:13px;line-height:1.7}
+.company-requisites strong{flex-basis:100%;color:#d5d8d8;font-weight:600}
+@media(max-width:800px){.footer-legal{flex-direction:column;gap:18px}}
+
 /* A persistent header keeps navigation and the direct contact within reach. */
 :root{--header-height:106px}
 html{scroll-padding-top:calc(var(--header-height) + 24px)}
